@@ -60,15 +60,15 @@
 		2E6D986D26D62AB000380024 /* ScrollViewTest */ = {
 			isa = PBXGroup;
 			children = (
-				2E6D98A026D646B600380024 /* TestListCell.swift */,
-				2E6D989E26D646B000380024 /* ToDoItem.swift */,
 				2E6D986E26D62AB000380024 /* ScrollViewTestApp.swift */,
 				2E6D987026D62AB000380024 /* ContentView.swift */,
+				2E6D989826D63DB400380024 /* ScrollView.swift */,
+				2E6D98A026D646B600380024 /* TestListCell.swift */,
+				2E6D989E26D646B000380024 /* ToDoItem.swift */,
 				2E6D989C26D645F100380024 /* FlippedUpsideDown.swift */,
 				2E6D987226D62AB100380024 /* Assets.xcassets */,
 				2E6D987726D62AB100380024 /* Info.plist */,
 				2E6D987426D62AB100380024 /* Preview Content */,
-				2E6D989826D63DB400380024 /* ScrollView.swift */,
 			);
 			path = ScrollViewTest;
 			sourceTree = "<group>";

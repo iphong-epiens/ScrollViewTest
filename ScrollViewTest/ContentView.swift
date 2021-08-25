@@ -21,26 +21,40 @@ struct ContentView: View {
                     print("offsetChanged", $0)
                 }
             ) {
+                Button(action: {
+                    print("tap button")
+                    self.listData.append(ToDoItem(task: "task\(listData.count+1)\nDonec id elit non mi porta gravida at eget metus.", imageName: "command"))
+                    
+                }, label: {
+                    Text("add msg")
+                })
+                
                 Button("Scroll to bottom") {
                     withAnimation {
-                        scrollView.scrollTo(0, anchor: .center)
+                        scrollView.scrollTo(0, anchor: .top)
                     }
                 }
                 
                 LazyVStack {
-                    ForEach(0..<100) { index in
-                        VStack{
-                            Text("\(index): Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.")
-                                Divider()
-                        }
-                        .flippedUpsideDown()
-                        .id(index)
+                    ForEach(0..<listData.count, id: \.self) { i in
+                        TestListCell(listData[i])
+                            .id(i)
+                            .flippedUpsideDown()
+                        
                     }.padding()
                 }.flippedUpsideDown()
+                .onChange(of: listData, perform: { value in
+                    print("listData.count",listData.count)
+                })
+                .onAppear{
+                    for index in 1...100 {
+                        listData.append(ToDoItem(task: "task\(index)", imageName: "command"))
+                    }
+                }
                 
                 Button("Scroll to top") {
                     withAnimation {
-                        scrollView.scrollTo(99, anchor: .center)
+                        scrollView.scrollTo(listData.count-1, anchor: .bottom)
                     }
                 }
             }
