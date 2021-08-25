@@ -16,6 +16,7 @@
 		2E6D989F26D646B000380024 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6D989E26D646B000380024 /* ToDoItem.swift */; };
 		2E6D98A126D646B600380024 /* TestListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6D98A026D646B600380024 /* TestListCell.swift */; };
 		2E6D98A326D64FBE00380024 /* ScrollViewOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6D98A226D64FBE00380024 /* ScrollViewOffset.swift */; };
+		2E6D98A626D650F500380024 /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6D98A526D650F500380024 /* ContentView1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2E6D989E26D646B000380024 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		2E6D98A026D646B600380024 /* TestListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestListCell.swift; sourceTree = "<group>"; };
 		2E6D98A226D64FBE00380024 /* ScrollViewOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffset.swift; sourceTree = "<group>"; };
+		2E6D98A526D650F500380024 /* ContentView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				2E6D98A226D64FBE00380024 /* ScrollViewOffset.swift */,
+				2E6D98A526D650F500380024 /* ContentView1.swift */,
 			);
 			path = ScrollViewOffset;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				2E6D987126D62AB000380024 /* ContentView.swift in Sources */,
 				2E6D989F26D646B000380024 /* ToDoItem.swift in Sources */,
 				2E6D986F26D62AB000380024 /* ScrollViewTestApp.swift in Sources */,
+				2E6D98A626D650F500380024 /* ContentView1.swift in Sources */,
 				2E6D989926D63DB400380024 /* ScrollView.swift in Sources */,
 				2E6D98A126D646B600380024 /* TestListCell.swift in Sources */,
 				2E6D98A326D64FBE00380024 /* ScrollViewOffset.swift in Sources */,
