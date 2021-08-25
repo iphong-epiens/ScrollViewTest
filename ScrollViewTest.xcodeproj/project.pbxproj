@@ -15,6 +15,7 @@
 		2E6D989D26D645F100380024 /* FlippedUpsideDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6D989C26D645F100380024 /* FlippedUpsideDown.swift */; };
 		2E6D989F26D646B000380024 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6D989E26D646B000380024 /* ToDoItem.swift */; };
 		2E6D98A126D646B600380024 /* TestListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6D98A026D646B600380024 /* TestListCell.swift */; };
+		2E6D98A326D64FBE00380024 /* ScrollViewOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6D98A226D64FBE00380024 /* ScrollViewOffset.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2E6D989C26D645F100380024 /* FlippedUpsideDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippedUpsideDown.swift; sourceTree = "<group>"; };
 		2E6D989E26D646B000380024 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		2E6D98A026D646B600380024 /* TestListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestListCell.swift; sourceTree = "<group>"; };
+		2E6D98A226D64FBE00380024 /* ScrollViewOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		2E6D986D26D62AB000380024 /* ScrollViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				2E6D98A426D64FE900380024 /* ScrollViewOffset */,
 				2E6D986E26D62AB000380024 /* ScrollViewTestApp.swift */,
 				2E6D987026D62AB000380024 /* ContentView.swift */,
 				2E6D989826D63DB400380024 /* ScrollView.swift */,
@@ -79,6 +82,14 @@
 				2E6D987526D62AB100380024 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E6D98A426D64FE900380024 /* ScrollViewOffset */ = {
+			isa = PBXGroup;
+			children = (
+				2E6D98A226D64FBE00380024 /* ScrollViewOffset.swift */,
+			);
+			path = ScrollViewOffset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 				2E6D986F26D62AB000380024 /* ScrollViewTestApp.swift in Sources */,
 				2E6D989926D63DB400380024 /* ScrollView.swift in Sources */,
 				2E6D98A126D646B600380024 /* TestListCell.swift in Sources */,
+				2E6D98A326D64FBE00380024 /* ScrollViewOffset.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
