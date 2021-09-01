@@ -65,9 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				2E6D986E26D62AB000380024 /* ScrollViewTestApp.swift */,
+				2E6D987026D62AB000380024 /* ContentView.swift */,
 				2EFF9D9826DF75010081AD6A /* Model */,
 				2EFF9D9626DF74E40081AD6A /* View */,
-				2E6D987026D62AB000380024 /* ContentView.swift */,
 				2E6D98A426D64FE900380024 /* ScrollViewOffset */,
 				2E6D987226D62AB100380024 /* Assets.xcassets */,
 				2E6D987726D62AB100380024 /* Info.plist */,
